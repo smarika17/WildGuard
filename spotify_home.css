@@ -1,0 +1,28 @@
+.spotify-homepage {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+}
+
+.spotify-header {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.spotify-content {
+  padding: 20px;
+}
+
+.playlist-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.playlist-card {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
